@@ -4,11 +4,10 @@ theme:
   name: material
 
 nav:
-  - Home: index.md
-  - Getting Started: usage.md
-  - API Reference: api_reference.md
+  - Home: docs/index.md
+  - Getting Started: docs/usage.md
+  - API Reference: docs/api_reference.md
 
 plugins:
   - search
-  - mkdocstrings
-
+  - mkdocstring
