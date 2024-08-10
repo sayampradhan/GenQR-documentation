@@ -1,0 +1,3 @@
+An API is made using FastAPI which allows you to access the generated QR codes from the API. The user interface is made using the streamlit. The user can put the information into the web application and the QR codes are to be retrieved from the API server. The advantage of this site over any other site is that allows you to generate colourful QR codes and you can even generate photo blended with the QR codes.
+
+Uvicorn is used to host the Json API. And we are currently using the Memory Database to store the QR codes. That is, it will be automatically removed when the application is closed. In future versions of the application, we will be using the real world database for storing the important details.

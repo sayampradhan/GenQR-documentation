@@ -1,0 +1,14 @@
+site_name: GenQR
+
+theme:
+  # name: material
+
+nav:
+  - Home: index.md
+  - Getting Started: usage.md
+  - API Reference: api_reference.md
+
+plugins:
+  - search
+  - mkdocstrings
+
